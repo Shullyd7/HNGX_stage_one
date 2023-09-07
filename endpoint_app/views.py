@@ -18,7 +18,7 @@ def endpoint_view(request):
     current_utc_time_str = current_utc_time.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # Define GitHub repository and file URLs
-    github_repo_url = "https://github.com/username/repo"
+    github_repo_url = "https://github.com/Shullyd7/HNGX_stage_one.git"
     github_file_url = f"{github_repo_url}/blob/main/manage.py"
 
 
